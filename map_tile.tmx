@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" source="tiles.tsx"/>
+ <layer id="2" name="background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYWBgYBnFo3gUj+JRPIpJxACb3QZB
+  </data>
+ </layer>
+ <layer id="3" name="walls" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlMsJADAIQx3M/efqtYjxFwsVpF6Mj4hVEdHlZEOv19YTFqS3zbfB+ZLvd/+QHxP/vHksH5qR3UBHr3NDSA9pTXfu9bN8lT1L0mP57OwKU8RXCeQ3c3eRHhPTPyDKA1CjMXU=
+  </data>
+ </layer>
+ <layer id="4" name="money" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjewHigHTCMwWjYDg0wmONpMLuNWDAc/EAuAADpEgEA
+  </data>
+ </layer>
+ <layer id="5" name="collision" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNlMsJADAIQ53C/UfttYjxFwsVpF6Mj4hVEdHlZEOv19YTFqS3zbfB+ZLvd/+QHxP/vHksH5qR3UBHr3NDSA9pTXfu9bN8lT1L0mP57OwKU8RXCeQ3c3eRHhPTPyDKA7KPEiM=
+  </data>
+ </layer>
+ <layer id="6" name="key" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkAMcB9oBo2AUDDAAAMpEAEI=
+  </data>
+ </layer>
+ <layer id="7" name="door" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCUQM9AOGAWjAAoA8JAAXQ==
+  </data>
+ </layer>
+ <layer id="9" name="door_collision" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBWgMNAOGAWjAAkAAFhAACE=
+  </data>
+ </layer>
+ <layer id="8" name="exit" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBicwGegHTAKRsEoGAWjAC8AALQvAE0=
+  </data>
+ </layer>
+</map>
