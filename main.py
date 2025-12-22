@@ -1,5 +1,5 @@
 import arcade
-from hero import Hero
+from pycode.hero import Hero
 
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 640
@@ -25,8 +25,9 @@ class MyGame(arcade.Window):
         self.key = False
         self.get_key = False
         self.door_opened = False
-        self.claim_money_sound = arcade.load_sound('claim_money.wav')
-        self.win_sound = arcade.load_sound("win_sound.wav")
+        self.claim_money_sound = arcade.load_sound('sounds/claim_money.wav')
+        self.win_sound = arcade.load_sound("sounds/win_sound.wav")
+        self.open_door_sound = arcade.load_sound('sounds/open_door.wav')
         
         # Камеры: мир и GUI
         self.world_camera = arcade.camera.Camera2D()  # Камера для игрового мира
@@ -137,6 +138,7 @@ class MyGame(arcade.Window):
         if door_opened and self.get_key:
             self.door_opened = True
             self.door_engine = None
+            # arcade.play_sound(self.open_door_sound)
 
         # Двигаем камеру за игроком (центрируем)
         # self.camera.move_to((self.player_sprite.center_x, self.player_sprite.center_y))

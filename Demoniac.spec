@@ -35,11 +35,11 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['simple_demon.ico'],
+    icon=['images/simple_demon.ico'],
 )
 app = BUNDLE(
     exe,
     name='Demoniac.app',
-    icon='simple_demon.ico',
+    icon='images/simple_demon.ico',
     bundle_identifier=None,
 )

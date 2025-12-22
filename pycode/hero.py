@@ -1,7 +1,7 @@
 import arcade
 
-PLAYER_IDLE = "demon_idle.png"
-PLAYER_WALKING = "demon_walking.png"
+PLAYER_IDLE = "images/demon_idle.png"
+PLAYER_WALKING = "images/demon_walking.png"
 
 
 class Hero(arcade.Sprite):
