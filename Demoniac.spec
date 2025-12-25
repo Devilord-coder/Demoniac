@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('Tiles', '.'), ('images', '.'), ('sounds', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -36,10 +36,4 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon=['images/simple_demon.ico'],
-)
-app = BUNDLE(
-    exe,
-    name='Demoniac.app',
-    icon='images/simple_demon.ico',
-    bundle_identifier=None,
 )

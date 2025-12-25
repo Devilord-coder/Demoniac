@@ -3,7 +3,7 @@ from pycode.hero import Hero
 
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 640
-SCREEN_TITLE = "Тайловый Уровень — Вау!"
+SCREEN_TITLE = "Demoniac"
 TILE_SCALING = 0.5  # Если тайлы 64x64, а хотим чтобы на экране были 64x64 — ставим 1.0
 
 # ---------- Камера ----------
@@ -41,7 +41,7 @@ class MyGame(arcade.Window):
 
         # ===== ВОЛШЕБСТВО ЗАГРУЗКИ КАРТЫ! (почти без магии). =====
         # Грузим тайловую карту
-        map_name = "map_tile.tmx"
+        map_name = "Tiles/map_tile.tmx"
         # Параметр 'scaling' ОЧЕНЬ важен! Умножает размер каждого тайла
         tile_map = arcade.load_tilemap(map_name, scaling=TILE_SCALING)
 
