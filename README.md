@@ -6,9 +6,9 @@ Demoniac - простая ролевая игра написанная на Pyth
 ## Инструкция по установке
 ### Для Mac OS или Linux
 1. Скопируйте и введите этот код в Терминал (консоль) по очереди. Введите права админа, если понадобятся.
-```curl -L "https://github.com/Devilord-coder/Demoniac/blob/main/MacOS%26Linux_installation.sh" > ~/Downloads/installation.sh```
-```chmod a+x ~/Downloads/installation.sh```
-```sudo ~/Downloads/installation.sh```
+```curl -L "https://github.com/Devilord-coder/Demoniac/blob/main/MacOS%26Linux_installation.sh" > ~/Downloads/installation.sh
+chmod a+x ~/Downloads/installation.sh
+sudo ~/Downloads/installation.sh```
 2. На Маке нужно разрешить все всплывающие вопросы по безопасности
 3. После установки в папке Downloads будет лежать готовое приложение. Перетащите его в папку Applications и устанвока будет завершена
 ### Для Windows
