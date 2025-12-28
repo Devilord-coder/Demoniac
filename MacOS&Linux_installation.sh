@@ -18,6 +18,7 @@ DEST_DIR="~/Downloads"
 echo "======= Starting installation ======="
 echo ""
 
+cd ~/Downloads
 mkdir app_repo_clone
 cd app_repo_clone
 git clone "$APP_LINK"
@@ -29,8 +30,6 @@ pip install -r requirements.txt
 
 pyinstaller Demoniac.spec
 mv dist/Demoniac.app ~/Downloads
-cd ~
-rm Documents/GitHub/app_repo_clone
 
 echo ""
 echo "====================================="
