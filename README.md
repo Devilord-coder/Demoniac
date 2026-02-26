@@ -22,10 +22,4 @@ Demoniac - простая ролевая игра написанная на Pyth
 2. На Маке нужно разрешить все всплывающие вопросы по безопасности
 3. После установки в папке Downloads будет лежать готовое приложение. Перетащите его в папку Applications и устанвока будет завершена
 ### Для Windows
-1. Скопируйте этот код в Терминал (консоль) построчно. Введите права админа, если понадобятся.
-    ```
-    curl -L "https://github.com/Devilord-coder/Demoniac/blob/main/Windows_installation.sh" > ~/Downloads/installation.sh
-    chmod a+x ~/Downloads/installation.sh
-    sudo ~/Downloads/installation.sh
-    ```
-2. После установки в папке Downloads будет лежать готовое приложение. Перетащите его в папку Applications и устанвока будет завершена
+**В разработке . . .**
